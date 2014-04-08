@@ -1,0 +1,12 @@
+{
+  "name": "e2e",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "protractor conf.js",
+    "selenium": "webdriver-manager start",
+    "postinstall": "webdriver-manager update"
+  },
+  "dependencies": {
+    "protractor": "~0.21.0"
+  }
+}
